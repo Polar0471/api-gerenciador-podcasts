@@ -1,7 +1,6 @@
 import { repositoryPodcast } from "../repositories/podcasts-repository"
-import { Podcast } from "../models/podcast-model"
 
-export const serviceListEpisodes = async (): Promise<Podcast[]> => {
+export const serviceListEpisodes = async () => {
     const data = repositoryPodcast()
     return data
 }

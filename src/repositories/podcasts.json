@@ -11,5 +11,17 @@
         "episode": "WHINDERSSON NUNES - Flow #292",
         "videoId": "lX_5m6ZU7x0",
         "category": ["comedia"]
+    },
+    {
+        "podcastName": "flow",
+        "episode": "GLAUBER [FALA GLAUBER PODCAST] - Flow #334",
+        "videoId": "p95-r8NSWuk",
+        "category": ["militar"]
+    },
+    {
+        "podcastName": "inteligência ltda",
+        "episode": "LYOTO MACHIDA - Inteligência Ltda. Podcast #521",
+        "videoId": "_yalWJJowpM",
+        "category": ["esporte", "UFC"]
     }
-    ]
+]
