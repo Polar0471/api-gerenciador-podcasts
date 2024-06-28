@@ -1,17 +1,7 @@
+import { repositoryPodcast } from "../repositories/podcasts-repository"
+import { Podcast } from "../models/podcast-model"
 
-export const serviceListEpisodes = async () => {
-    const data = [   // content
-        {
-        podcastName: "flow",
-        episode: "GUILHERME BRIGGS - Flow #348",
-        category: ["comedia", "dublagem"]
-    },
-    {
-        podcastName: "flow",
-        episode: "WHINDERSSON NUNES - Flow #292",
-        category: ["comedia"]
-    }
-    ]
-
+export const serviceListEpisodes = async (): Promise<Podcast[]> => {
+    const data = repositoryPodcast()
     return data
 }
